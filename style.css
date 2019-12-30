@@ -1,0 +1,68 @@
+#main{
+  background: #EFF6FF;
+  display: flex;
+  width: 100%;
+  height: 1024px;
+}
+
+h1, h2, h3, h4 {
+  color: #2A4A5C;
+}
+p {
+  color: #7B8A92;
+}
+
+.button-social{
+  margin-top: 50px;
+  display: flex;
+  color:#FFF;
+  font-size: 12px;
+  
+ }
+
+.button-social span{
+  display: block;
+  margin: 15px 0 15px 40px;
+}
+
+.button-social svg{
+  width: 20px;
+  height: auto;
+  float:left;
+  margin: 10px 0px 10px 10px;
+}
+
+.LI{
+background: #0076B6;
+margin-left: 30px;
+width: 180px;
+
+}
+
+.facebook{
+ background: #255A9B;
+ width: 180px;
+}
+
+
+.left{
+  background-image: url(https://raw.githubusercontent.com/jm-program/css-task/master/img/bg.jpg);
+  width: 50%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 100%;
+
+}
+
+.right{
+  width: 50%;
+  height: 100%;
+  margin-left: 100px;
+  margin-top: 100px;
+}
+
+.logo svg {
+margin: 20px;
+width: 100px;
+height: auto;
+}
