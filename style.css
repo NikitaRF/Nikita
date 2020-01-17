@@ -1,68 +1,66 @@
-#main{
-  background: #EFF6FF;
-  display: flex;
-  width: 100%;
-  height: 1024px;
+@font-face {
+    font-family: 'TT Lakes';
+    src: url('TTLakes-Italic.eot');
+    src: local('TT Lakes Italic'), local('TTLakes-Italic'),
+        url('TTLakes-Italic.eot?#iefix') format('embedded-opentype'),
+        url('TTLakes-Italic.woff') format('woff'),
+        url('TTLakes-Italic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
 }
 
-h1, h2, h3, h4 {
-  color: #2A4A5C;
-}
-p {
-  color: #7B8A92;
+body {
+  font-family: "TT Lakes";
+  background-color: #F8F8F8;
+  width: 360px;
+  border: 1px solid blue;
 }
 
-.button-social{
-  margin-top: 50px;
+.upper-menu {
+  width: auto;
+  height: 88px;
+  border-bottom: 1px solid #D9FFF5;;
   display: flex;
-  color:#FFF;
-  font-size: 12px;
+  background: #FFFFFF;
+  justify-content: space-around;
+  align-items: center;
   
- }
-
-.button-social span{
-  display: block;
-  margin: 15px 0 15px 40px;
 }
 
-.button-social svg{
-  width: 20px;
-  height: auto;
-  float:left;
-  margin: 10px 0px 10px 10px;
+.title {
+  height: 40px;
+  display: flex;
+  align-items: center;
+  margin-top: 24px;
 }
 
-.LI{
-background: #0076B6;
-margin-left: 30px;
-width: 180px;
-
+.title__highlight {
+  margin-right: 12px;
 }
 
-.facebook{
- background: #255A9B;
- width: 180px;
+.menu {
+  height: 40px;
+  margin-top: 24px;
+  display: flex;
+  width: 504px;
+  
 }
 
-
-.left{
-  background-image: url(https://raw.githubusercontent.com/jm-program/css-task/master/img/bg.jpg);
-  width: 50%;
-  background-size: cover;
-  background-repeat: no-repeat;
-  min-height: 100%;
-
+.menu__button{
+  font-family: TT Lakes;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: -0.2px;
+  color: #7E7E82;
+  margin-left: 16px;
+  border: none;
+  background: inherit;
 }
 
-.right{
-  width: 50%;
-  height: 100%;
-  margin-left: 100px;
-  margin-top: 100px;
-}
-
-.logo svg {
-margin: 20px;
-width: 100px;
-height: auto;
+.menu__button--active {
+  background: #FFFFFF;
+  border: 2px solid #B8FFEC;
+  box-sizing: border-box;
+  border-radius: 6px;
+  padding: 8px 9.3px 8px 16.54px;
 }
